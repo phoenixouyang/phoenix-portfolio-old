@@ -12,18 +12,38 @@ body {
 
 header {
     background-color: aliceblue;
-    padding: 10% 20% 0% 20%; 
+    padding: 5% 20% 5% 20%; 
 }
 
+.header-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-hero div {
+    padding: 0 5% 5% 0;
+}
+
+#profile-pic {
+    width: 300px;
+    height: auto;
+}
+
+nav {
+    border: 2px solid #cbd8e5;
+    margin: 1% 25%;
+}
 .nav-bar ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 5% 20% 3% 20%;
+    padding: 1% 2% 1% 2%;
 }
 
 .nav-bar li {
     list-style: none;
-    padding: 0 5%;
+    padding: 0;
 }
 
 .nav-bar a {
@@ -31,6 +51,7 @@ header {
     color: #5D6063;
     font-weight: lighter;
     font-size: 20px;
+    padding: 0px 2px;
 }
 
 #first-img {
@@ -41,4 +62,16 @@ header {
 .app-imgs {
     width: 200px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .header-hero {
+        flex-direction: column;
+    }
+
+}
+
+.nav-bar li a:hover {
+    background-color: #b0cbe6;
+    color: #FFFFFF;
 }
