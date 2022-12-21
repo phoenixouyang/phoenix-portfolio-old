@@ -70,7 +70,7 @@ nav {
 .work-examples,
 .experience,
 .contact-me {
-    padding: 10% 15% 5% 15%;
+    padding: 10% 15% 10% 15%;
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ nav {
 .first-app {
     border: 5px solid #b0cbe6;
     display: inline-block;
-    padding: 4px;
+    padding: 10px 4px;
 }
 
 .portfolio-flex {
@@ -152,16 +152,41 @@ nav {
     text-decoration: none;
 }
 
+.experience {
+    background-color: aliceblue;
+}
+
+.exp-name {
+    padding: 15px;
+}
+
+.exp-name p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.expWP {
+    font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
     .header-hero {
         flex-direction: column;
+    }
+
+    .header-hero h1 {
+        text-align: center;
+    }
+
+    .header-hero p {
+        text-align: center;
     }
 
     .nav-bar ul {
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 .nav-bar li a:hover {
