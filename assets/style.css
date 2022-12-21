@@ -181,6 +181,7 @@ nav {
 @media screen and (max-width: 768px) {
     .header-hero {
         flex-direction: column;
+        padding: auto;
     }
 
     .header-hero h1 {
@@ -191,10 +192,39 @@ nav {
         text-align: center;
     }
 
+    nav {
+        margin: auto;
+    }
+
     .nav-bar ul {
         flex-direction: column;
         align-items: center;
     }
+    .nav-bar a {
+        font-size: 90%;
+        padding: 0;
+    }
+    .about-me, 
+    .work-examples,
+    .experience,
+    .contact-me {
+        padding: 40px 0;
+    }
+
+    .first-app {
+        margin: 0;
+        padding: 0;
+    }
+    .app-imgs {
+        width: 200px;
+        height: 125px;
+    }
+    .first-app p,
+.portfolio-flex p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
 }
 
 .nav-bar li a:hover {
