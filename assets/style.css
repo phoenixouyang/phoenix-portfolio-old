@@ -1,8 +1,11 @@
+/* universal selector to dictate default margin, padding and box sizing for the webpage */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* setting default fonts and colours */
 
 body {
     background-color: #FFFFFF;
@@ -10,6 +13,7 @@ body {
     color: #5D6063;
 }
 
+/* styling for header section of webpage */
 header {
     background-color: aliceblue;
     padding: 5% 20% 5% 20%; 
@@ -40,6 +44,7 @@ header {
     height: auto;
 }
 
+/* stying for navigation bar */
 nav {
     border: 2px solid #b0cbe6;
     margin: 1% 35%;
@@ -66,6 +71,7 @@ nav {
     border-radius: 5px;
 }
 
+/* styling for each content section of the page to keep consistent padding and text alignment */
 .about-me, 
 .work-examples,
 .experience,
@@ -74,6 +80,7 @@ nav {
     text-align: center;
 }
 
+/* styling for the titles of each content section to make it look like the words are highlighted in blue */
 .section-title {
     font-size: 40px;
     padding: 0% 1%;
@@ -85,6 +92,7 @@ nav {
     font-weight: 350;
 }
 
+/* styling for about me section */
 #am-intro {
     font-size: 40px;
     font-weight: 200;
@@ -108,6 +116,7 @@ nav {
     font-weight: 200;
 }
 
+/* styling for portfolio section */
 .first-app {
     border: 5px solid #b0cbe6;
     display: inline-block;
@@ -152,6 +161,7 @@ nav {
     text-decoration: none;
 }
 
+/* styling for experience section */
 .experience {
     background-color: aliceblue;
 }
@@ -170,6 +180,7 @@ nav {
     font-weight: 600;
 }
 
+/* stying for contact section */
 .contact-links img {
     width: 50px;
     height: 50px;
@@ -177,6 +188,7 @@ nav {
     margin: 10px 15px;
 }
 
+/* To specify styling for screens with a width smaller than 768px */
 
 @media screen and (max-width: 768px) {
     .header-hero {
@@ -204,6 +216,8 @@ nav {
         font-size: 90%;
         padding: 0;
     }
+
+    /* remove left and right padding for all sections so content will stretch to edges */
     .about-me, 
     .work-examples,
     .experience,
@@ -219,14 +233,16 @@ nav {
         width: 200px;
         height: 125px;
     }
+
+    /* decrease font size of project captions so div boxes will stay aligned */
     .first-app p,
-.portfolio-flex p {
+    .portfolio-flex p {
     font-size: 15px;
     font-weight: 200;
+    }
 }
 
-}
-
+/* specific stylings for when a user hovers over the below elements */
 .nav-bar li a:hover {
     background-color: #b0cbe6;
     color: #FFFFFF;
