@@ -19,6 +19,7 @@ This site will be updated with my newest projects, and has other info such as:
 
 ![profile-page](./assets/webpage-screenshot.png)
 
+
 Click on the navigation links to scroll to the corresponding section
 
 ## Credits
