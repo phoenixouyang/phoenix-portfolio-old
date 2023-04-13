@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-The deployed portfolio can be accessed [here](https://pholobo.github.io/phoenix-portfolio).
+The deployed portfolio can be accessed [here](https://phoenixouyang.github.io/phoenix-portfolio/).
 This site will be updated with my newest projects, and has other info such as:
 - an overview about me
 - portfolio of the apps I've deployed
